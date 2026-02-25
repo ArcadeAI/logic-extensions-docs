@@ -1,12 +1,12 @@
-# Logical Extensions
+# Logic Extensions
 
-> ⚠️ **Beta**: Logical Extensions is currently in beta. APIs and behavior may change.
+> ⚠️ **Beta**: Logic Extensions is currently in beta. APIs and behavior may change.
 
-Logical Extensions is a plugin system that lets you inject custom logic into Arcade's execution flow. It's designed for organizations that need to integrate Arcade with their existing security, compliance, and identity management systems.
+Logic Extensions is a plugin system that lets you inject custom logic into Arcade's execution flow. It's designed for organizations that need to integrate Arcade with their existing security, compliance, and identity management systems.
 
-## Why Use Logical Extensions?
+## Why Use logic Extensions?
 
-When your organization adopts Arcade, you likely have existing systems that manage user permissions, security policies, and compliance requirements. Logical Extensions bridges Arcade with these systems, giving you:
+When your organization adopts Arcade, you likely have existing systems that manage user permissions, security policies, and compliance requirements. Logic Extensions bridges Arcade with these systems, giving you:
 
 - **Access Control** — Decide which users can see and use which tools based on your existing identity provider (Sailpoint, Entra, Okta, or custom systems)
 - **Request Validation** — Check tool inputs against your policies before execution (e.g., "users can only send emails within their organization")
@@ -27,7 +27,7 @@ A plugin is configured once with its connection details (URLs, credentials) and 
 
 ### Hook Points
 
-**Hook points** are specific moments in Arcade's execution flow where your plugin can step in. The Logical Extensions system is designed to support hook points across different parts of Arcade.
+**Hook points** are specific moments in Arcade's execution flow where your plugin can step in. The logic Extensions system is designed to support hook points across different parts of Arcade.
 
 ### Hook Configurations
 
@@ -43,7 +43,7 @@ A **hook configuration** connects a plugin to a specific hook point and defines 
 
 ## Contextual Access
 
-**Contextual Access** is the first Logical Extensions feature, focused on tool execution. It provides three hook points that let you control who can access which tools and what happens before and after tools run.
+**Contextual Access** is the first logic Extensions feature, focused on tool execution. It provides three hook points that let you control who can access which tools and what happens before and after tools run.
 
 ### Hook Points
 
